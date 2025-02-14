@@ -34,7 +34,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
             <Route path='/terms-of-use' element={<TermsOfUse/>} />
             <Route path='/pkgs' element={<PackageShowcase />} />
             <Route path='/pkgs/*' element={<PackageListing/>} />
-            <Route path='/tea-protocol' element={<TeaProtocol />} />
+            <Route path='/tea' element={<TeaProtocol />} />
           </Routes>
           <Footer/>
         </Stack>
